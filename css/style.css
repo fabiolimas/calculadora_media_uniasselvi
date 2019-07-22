@@ -1,0 +1,245 @@
+body{
+	
+	font-family: tahoma;
+	background-color: #64348a;
+	
+	
+}
+div#form {
+    margin-top: 34px;
+}
+#interface{
+	background-image:url('../image/gioconda.png');
+	background-repeat:no-repeat;
+	background-position:right;
+	background-attachment:scroll;
+	background-color:#ffdd00;
+	width:900px;
+	height:200px;
+	margin: 20px auto;
+	color:black;
+	padding: 20px;
+	font-weight: bold;
+	font-size: 15px;
+	border-radius:7px;
+	background-size: 188px;
+	
+	box-shadow: 0px 0px 10px #8c8787b3;
+}
+#interface h1{
+	
+	color: #156a88;
+    text-align: center;
+    text-shadow: 0px 0px 6px #ffffff;
+    font-size: 25px;
+	
+}
+form{
+	margin-top:60px;
+	color:black;
+	text-shadow: 0px 1px 1px gray;
+	
+}
+form input{
+	width:70px;
+	text-align:center;
+	
+	
+}
+#bt{
+	background-color:white;
+	border-radius:5px;
+	transition:0.3s;
+	cursor:pointer;
+	width:109px;
+	margin-left:50px;
+	margin-top:10px;
+	font-weight:bold;
+	border:none;
+	
+}
+#bt:hover{
+	background-color: black;
+	color:white;
+
+}
+#bt1{
+	background-color:#65348af0;
+	border-radius:5px;
+	transition:0.3s;
+	cursor:pointer;
+	width:109px;
+	margin-left:50px;
+	margin-top:10px;
+	font-weight:bold;
+	border:none;
+	color:white;
+	
+}
+#bt1:hover{
+	background-color: black;
+	color:white;
+
+}
+.foco{
+	font-weight:bold;
+	color:#9E2A22;
+}
+
+.reprova{	    margin-top: -16px;
+    color: #071477;
+    text-shadow: 0px 0px 5px white;
+    margin-left: 69%;
+    
+}
+
+.aprova{	    margin-top: -16px;
+    color: #071477;
+    text-shadow: 0px 0px 5px white;
+    margin-left: 69%;
+
+}
+.resu{
+	float:right;
+margin-top: 11px;
+    margin-right: 362px;
+color:black;
+
+
+}
+.rest1{
+float: right;
+    margin-top: 15px;
+    margin-right: 55px;
+color:#d85a59;
+text-shadow: 0px 2px 1px black; 
+
+}
+.section{
+	width:104%;
+	background-color:#ffdd00;
+	height:auto;
+	padding:10px;
+}
+.section img{
+	width:200px;
+	margin: 0 auto;
+	display:block;
+}
+.section h3{
+	text-align:center;
+	display:block;
+	margin:0 auto;
+	border-radius:5px;
+	padding: 5px;
+	background-color:black;
+	color:white;
+	width:100px;
+	margin-top:30px;
+	transition: 0.3s;
+	font-size:15px;
+	font-family: arial;
+}
+.section h3:hover{
+	background-color:#2f2e2e;
+	
+}
+.section ul li{
+
+	list-style-type:none;
+	
+}
+.section ul{
+	
+}
+
+a{
+	text-decoration:none;
+}
+
+@media only screen and (max-width: 360px) {
+
+body{
+	
+	background-color:#64348b;
+}
+#interface{
+	width:100%;
+	background-size:184px;
+	font-size:19px;
+	
+}
+.section{
+    margin-top: 78px;
+}
+
+form input{
+	    width: auto;
+    text-align: center;
+    margin-right: 5%;
+    margin-top:6%;
+	
+	
+	
+}
+form {
+   background-color: #ffdd00a1;
+    height: 113px;
+    width: 100%;
+        font-size: 12px;
+  
+   
+}
+.reprova{	
+    float: right;
+    margin-top: 5%;
+    margin-right: 62%;
+    color: #071477;
+    text-shadow: 0px 0px 5px white;
+}
+
+.aprova{	
+   float: right;
+    margin-top: 5%;
+    margin-right: 62%;
+    color: #071477;
+    text-shadow: 0px 0px 5px white;
+}
+.resu{
+    float: right;
+        margin-top: -154px;
+    margin-right: 175px;
+    color: black;
+  
+
+}
+#bt{
+	margin-top: 21px;
+    margin-left: -5px;
+    background-color: black;
+    color: white;
+    border:none;
+}
+
+#bt1{
+	    margin-top: 10%;
+    margin-left: unset;
+   
+}
+h1 {
+    font-size: 18px !important;
+    text-align: left !important;
+    margin-bottom: -43px;
+}
+.rest1{
+
+ 
+    margin-top: -145px;
+    margin-right: 77px;
+    color: #d85a59;
+}
+div#resultado {
+    margin-top: -11%;
+}
+	
+}
